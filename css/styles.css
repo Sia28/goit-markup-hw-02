@@ -1,0 +1,149 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul, ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color:  #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+
+.logo-part {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color:  #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 2%;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #404BBF;
+}
+
+.address-link {
+    color:  #434455;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 2%;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+.header{
+    background-color: #2E2F42;
+}
+
+.header-content {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: #404BBF;
+}
+
+button {
+    background-color:#4D5AE5;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.item-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-transform: ;
+    color: #2E2F42;
+}
+.items-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+.images{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+.team{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;
+
+}
+
+.team-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color:#434455;
+}
+
+.style{
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.logo-part-footer{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
