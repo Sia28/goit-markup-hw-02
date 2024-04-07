@@ -19,7 +19,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -32,7 +32,7 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -42,9 +42,10 @@ a {
 
 .address-link {
     color:  #434455;
+    font-style:normal;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -54,13 +55,14 @@ a {
 
 .header{
     background-color: #2E2F42;
+    text-align: center;
 }
 
 .header-content {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -70,12 +72,13 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.header-btn:hover {
+.header-btn:hover,
+.header-btn:focus {
     background-color: #404BBF;
 }
 
@@ -89,14 +92,14 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
-    text-transform: ;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 .items-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -104,7 +107,11 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .our-team {
@@ -114,7 +121,7 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 
 }
@@ -123,13 +130,40 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color:#434455;
 }
 
 .style{
     background-color: #FFFFFF;
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-work{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.discription{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .footer{
@@ -144,6 +178,6 @@ button {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
