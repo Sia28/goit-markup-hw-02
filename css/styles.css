@@ -40,7 +40,7 @@ a {
     color: #404BBF;
 }
 
-.address-link {
+.address {
     color:  #434455;
     font-style:normal;
     font-size: 16px;
@@ -48,8 +48,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.address-link:hover,
-.address-link:focus {
+.address:hover,
+.address:focus {
     color: #404BBF;
 }
 
